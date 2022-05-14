@@ -1,0 +1,148 @@
+.pageHeader {
+  background-image: linear-gradient(
+      0deg,
+      rgba(87, 65, 217, 0.4),
+      rgba(87, 65, 217, 0.4)
+    ),
+    url("../images/background1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  text-align: center;
+  color: #fff;
+  height: 250px;
+}
+.pageHeader h1 {
+  padding-top: 65px;
+  font-size: 2.3em;
+}
+.pageHeader h2 {
+  padding-top: 25px;
+  font-size: 2em;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin: 60px 0px;
+  font-size: 1.8em;
+  color: #011844;
+}
+
+.bodyContent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 350px;
+}
+.bodyInfo {
+  width: 60%;
+  padding-left: 50px;
+}
+.bodyInfo h3 {
+  padding: 0px 10px;
+  color: #5741d9;
+  font-size: 1.2em;
+}
+.bodyInfo p {
+  padding: 5px 10px;
+  padding-bottom: 15px;
+}
+.bodyVideo img {
+  width: 95%;
+  object-fit: contain;
+  height: 300px;
+  padding-left: 25px;
+}
+
+#cryptoInfo {
+  height: 500px;
+  margin-bottom: 100px;
+}
+#cryptoInfo p {
+  padding-bottom: 25px;
+}
+#cryptoInfo h3 {
+  padding-bottom: 0px;
+}
+#cryptoInfo img {
+  height: 350px;
+}
+
+#blockchainInfo {
+  height: 325px;
+}
+#blockchainInfo h3 {
+  padding-bottom: 0px;
+}
+#blockchainInfo p {
+  padding-bottom: 35px;
+}
+
+#bitcoinInfo {
+  height: 1100px;
+}
+#bitcoinInfo h3 {
+  padding-bottom: 0px;
+}
+.valueList {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 90vw;
+  margin-left: calc(-26vw + 50%);
+  margin-bottom: 30px;
+}
+
+#bottomBitcoin p,
+#bottomBitcoin h3 {
+  width: 90vw;
+  margin-left: calc(-28vw + 50%);
+}
+#bitcoinInfo li {
+  margin: 5px 0px;
+}
+
+#bitcoinInfo li b {
+  font-weight: 600;
+}
+
+.textWrapped {
+  margin-bottom: 20px;
+}
+.bodyVideo {
+  transition: 1s;
+}
+.bodyVideo:hover .playButton {
+  transform: scale(1.2);
+}
+
+.bodyVideo .playButton {
+  position: absolute;
+  max-height: fit-content;
+  max-width: 8%;
+  right: 275px;
+  top: 480px;
+  transition: 0.5s;
+}
+.playButton2 {
+  position: absolute;
+  max-height: fit-content;
+  max-width: 8%;
+  right: 230px;
+  top: 1180px;
+  transition: 0.5s;
+}
+.bodyVideo:hover .playButton2 {
+  transform: scale(1.2);
+}
+.playButton3 {
+  position: absolute;
+  max-height: fit-content;
+  max-width: 8%;
+  right: 220px;
+  top: 1660px;
+  transition: 0.5s;
+}
+.bodyVideo:hover .playButton3 {
+  transform: scale(1.2);
+}

@@ -1,0 +1,56 @@
+.pageHeader {
+  margin: 35px;
+}
+.pageHeader h1 {
+  font-weight: bold;
+  font-size: 2.2em;
+  color: #011844;
+}
+.pageHeader h2 {
+  margin-top: 20px;
+  color: #011844;
+}
+
+.newsCol {
+  height: 400px;
+  overflow: hidden;
+  margin: 45px 25px;
+}
+
+.newsRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.newsRow img {
+  height: 475px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 8px;
+}
+.newsRow a:hover {
+  transform: scale(1.1);
+}
+.newsRow a:hover + .rowLabel h2 {
+  font-weight: 900;
+}
+.newsRow a {
+  width: 55%;
+  height: 300px;
+  transition: 2s;
+}
+.rowLabel {
+  width: 30%;
+}
+.rowLabel h2 {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.newsRow .rowLabel {
+  padding-left: 35px;
+}
+mark {
+  color: #5741d9;
+  background: none;
+}

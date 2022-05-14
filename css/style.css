@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.showcase {
+  position: absoulte;
+  right: 0;
+  width: 100%;
+  min-height: 120vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  color: #fff;
+  z-index: 2;
+}
+
+.showcase header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.showcase video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120%;
+  background-color: #03a9f4;
+  mix-blend-mode: overlay;
+}
+
+.text {
+  position: relative;
+  z-index: 10;
+  margin: auto;
+  width: 50%;
+  padding-top: 225px;
+}
+
+.text h2 {
+  font-size: 5em;
+  font-weight: 800;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+.text h2 {
+  font-size: 4em;
+  font-weight: 700;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+.text a {
+  display: inline-block;
+  font-size: 1em;
+  padding: 10px 30px;
+  text-decoration: none;
+  margin-top: 10px;
+  transition: 0.5s;
+  margin-top: 30px;
+  margin-left: 180px;
+  transform: scale(2);
+  filter: invert(1);
+}
+
+.text a:hover {
+  transform: scale(2.5);
+}
+
+#nav {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-right: 20px;
+}
+#nav li {
+  list-style: none;
+  padding-left: 35px;
+}
+#nav li a {
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  font-size: 1.2em;
+  transition: 3s;
+}
+#nav li a:hover {
+  text-decoration: underline;
+}
+
+.middlePageTop {
+  width: 60%;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-bottom: 90px;
+}
+.middlePageTop h2 {
+  margin-bottom: 15px;
+  font-size: 1.8em;
+}
+.middlePageTop p {
+  margin-top: 20px;
+  line-height: 200%;
+  font-size: 1.1em;
+}
+
+.pictureRow {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-left: 1.5%;
+  margin-top: 15px;
+  padding-top: 10px;
+  border-top: 10x solid transparent;
+}
+.pictureRow img:hover {
+  margin-top: -5px;
+  opacity: 0.95;
+  border-top: 5px solid #1d1e7a;
+}
+
+.pictureRow img {
+  transform: scale(1);
+  height: 65%;
+  width: 95%;
+}
+.pictureRow a {
+  text-decoration: none;
+  width: 33%;
+}
+.pictureRow p {
+  line-height: 130%;
+  padding-right: 25px;
+}
+.pictureRow h3,
+.pictureRow p {
+  text-decoration: none;
+  color: #000;
+}
+.middlePageTop mark {
+  color: #5741d9;
+  background: none;
+}
+.middlePageBottom h2 {
+  text-align: center;
+  color: #011844;
+  font-size: 1.6em;
+}
+
+@media (max-width: 991px) {
+  .showcase,
+  .showcase header {
+    padding: 40px;
+  }
+  .text h2 {
+    font-size: 3em;
+  }
+  .text h3 {
+    font-size: 2em;
+  }
+}

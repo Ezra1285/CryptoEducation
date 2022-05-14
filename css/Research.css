@@ -1,0 +1,54 @@
+.pageHeader {
+  height: 75px;
+  background-color: #011844;
+  margin-bottom: 30px;
+}
+
+.pictureCol {
+  text-decoration: none;
+  color: #000;
+}
+
+.pageHeader h1 {
+  padding-top: 15px;
+  font-size: 1.8em;
+  text-align: center;
+  color: #fff;
+}
+
+#headerOne {
+  text-align: center;
+  font-size: 1.8em;
+  color: #5741d9;
+}
+
+.cryptoResearch img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.cryptoResearch {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.pictureCol {
+  padding: 30px;
+  display: block;
+}
+.col {
+  width: 33%;
+}
+.col h3 {
+  text-align: center;
+  padding-left: 20px;
+  margin-bottom: 85px;
+}
+.col img {
+  height: 250px;
+  max-width: auto;
+}
+
+.col a img:hover {
+  opacity: 0.8;
+}

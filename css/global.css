@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+/***  Header  ***/
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: fit-content;
+  padding: 8px;
+}
+.mainNavBar {
+  background-color: #5741d9;
+  padding-right: 60px;
+}
+.mainTabs li {
+  display: inline-block;
+  padding: 30px 20px 20px 20px;
+  font-size: 1.3em;
+}
+.mainTabs li a {
+  color: #fff;
+  text-decoration: none;
+  transition: 2s;
+}
+.mainTabs li a:hover {
+  text-decoration: underline;
+}
+.mainLogo {
+  padding: 5px 0px 0px 35px;
+}
+.mainLogo img {
+  height: 80%;
+  width: 80%;
+  filter: invert(1);
+}
+.activeTab {
+  color: #a296ea !important;
+  font-weight: bold;
+}
+
+/***    Footer  ***/
+footer {
+  bottom: 0;
+  height: 275px;
+  font-size: 1.1em;
+}
+.footerTab {
+  display: flex;
+  background-color: #5741d9;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  color: #fff;
+  height: fit-content;
+}
+
+.footerLeft {
+  padding: 30px 175px;
+  width: 40%;
+  filter: invert(1);
+}
+
+.footerMiddle,
+.footerRight {
+  width: 30%;
+}
+.footerRight {
+  text-align: center;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: left;
+  margin-left: 110px;
+  padding-top: 10px;
+  width: 38%;
+}
+.vertLine {
+  width: 2px;
+  background-color: #fff;
+  height: 81%;
+  float: left;
+  margin-left: 75px;
+  margin-top: 5px;
+}
+#leftVertLine {
+  margin-left: 22%;
+}
+.footerMiddle {
+  text-align: center;
+}
+.footerMiddle h2 {
+  text-align: left;
+  padding-left: 80px;
+}
+.footerMiddle li {
+  list-style: none;
+}
+.footerMiddle a {
+  text-decoration: none;
+  color: #fff;
+}
+.footerLinks {
+  text-align: left;
+  padding-left: 115px;
+}
+.footerLinks li {
+  padding-top: 8px;
+}
+
+.social li {
+  list-style: none;
+  margin-top: 10px;
+  padding: 8px;
+}
+.social li a {
+  transition: 1;
+  filter: grayscale(1) invert(1);
+}
+.footerRight h2 {
+  text-align: left;
+  padding-left: 80px;
+}

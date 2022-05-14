@@ -1,0 +1,66 @@
+.pageHeader {
+  text-align: center;
+  margin-top: 65px;
+  margin-bottom: 70px;
+}
+.pageHeader h1 {
+  font-size: 2.1em;
+  text-transform: uppercase;
+  color: #0d2c66;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+.pageHeader h2 {
+  color: #5741d9;
+}
+
+.bodyTable {
+  margin-bottom: 115px;
+}
+.bodyTable table {
+  border-collapse: collapse;
+  width: 92%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bodyTable thead {
+  color: #fff;
+  background: linear-gradient(#0d2c66, #293f50);
+}
+th:first-of-type {
+  border-top-left-radius: 10px;
+  border-top: none;
+  border-left: none;
+}
+th:last-of-type {
+  border-top-right-radius: 10px;
+}
+tr:last-of-type td:first-of-type {
+  border-bottom-left-radius: 10px;
+}
+tr:last-of-type td:last-of-type {
+  border-bottom-right-radius: 10px;
+}
+
+.bodyTable th {
+  padding: 15px 20px;
+  font-size: 1.1em;
+}
+
+.bodyTable td {
+  padding: 10px 15px;
+  border: 1px solid black;
+  vertical-align: middle;
+}
+.bodyTable tbody tr:nth-child(even) {
+  background: #f0f0f2;
+}
+.propertyCol {
+  text-align: center;
+}
+.bankCol {
+  text-align: center;
+}
+.cryptoCol {
+  text-align: center;
+}

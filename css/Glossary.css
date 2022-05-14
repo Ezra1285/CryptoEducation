@@ -1,0 +1,50 @@
+.pageHeader h1 {
+  font-size: 2.3em;
+  text-align: center;
+  margin: 35px;
+}
+.pageHeader h2 {
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 1.4em;
+}
+
+.termList {
+  padding-left: 45px;
+  width: 65%;
+}
+
+.termList h2 {
+  margin: 20px 0px;
+  color: #5741d9;
+}
+.termList p {
+  margin-bottom: 35px;
+}
+
+.termSources {
+  color: #fff;
+  background-color: #011844;
+  height: 110px;
+  padding-top: 15px;
+}
+.termSources ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+.termSources h1 {
+  color: #5741d9;
+  text-align: center;
+  font-size: 1.5em;
+}
+.termSources li a {
+  text-decoration: none;
+  color: #fff;
+}
+.termSources li {
+  list-style: none;
+  margin-top: 20px;
+  font-size: 1.15em;
+}
